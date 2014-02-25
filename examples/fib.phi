@@ -1,0 +1,16 @@
+fib = (i) {
+	if (i is 0) or (i is 1) {
+		i
+	} else {
+		fib(i-1) + fib(i-2)
+	}
+}
+
+say(fib(0))
+say(fib(1))
+say(fib(2))
+say(fib(3))
+say(fib(4))
+say(fib(5))
+say(fib(6))
+say(fib(7))
