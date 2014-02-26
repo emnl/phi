@@ -11,30 +11,30 @@ Phi is all about simplicity.
 	float = 10.0
 	boolean = true
 	string = "word"
-	
+
 	# comment
-	
+
 	if int is 10 {
 		say("it's ten!")
 	}
-	
+
 	if (int is 9) or (float isnt 7.0) {
 		say("aww")
 	} else {
 		say("booya")
 	}
-	
+
 	while int isnt 0 {
-		i = i - 1
+		int = int - 1
 	}
-	
+
 	add_two = (n) {
 		add_one = (n) {
 			n + 1
 		}
 		add_one(add_one(n))
 	}
-	
+
 	say(add_two(2))
 
 Everything is an expression. The last expression is the return. Functions have their own scope. stdlib is "say", which prints to standard out.
