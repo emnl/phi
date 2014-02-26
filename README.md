@@ -1,7 +1,7 @@
 phiΦ
 ===
 
-Phi is a simple programming language. Please steal it and play around with it — create your own language!
+Phi is a simple programming language. Please copy it and play around with it — create your own language!
 
 Design
 ------
