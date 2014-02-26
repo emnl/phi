@@ -98,8 +98,7 @@ class Interpreter
 
   def eval_exp_while(exp, scope)
     cond = eval_exp(exp[:condition], scope)
-    continue = true
-    while continue && cond
+    while cond
       res = eval_exp_list(exp[:explist], scope)
       cond = eval_exp(exp[:condition], scope)
     end
